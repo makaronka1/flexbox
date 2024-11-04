@@ -17,6 +17,7 @@ body {
     background-color: white;
     color: orangered;
     font-size: 135px;
+    max-height: 200px;
     /* width: calc(33.33% - 16px); */
 }
 
