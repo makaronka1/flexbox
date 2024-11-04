@@ -14,7 +14,7 @@ body {
 
 .flex-element {
     border: 8px yellow solid;
-    background-color: black;
+    background-color: white;
     color: orangered;
     font-size: 135px;
     /* width: calc(33.33% - 16px); */
