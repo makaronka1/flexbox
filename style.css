@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    border: 10px violet solid;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    padding: 5px;
+    background-color: yellow;
+    min-height: 100vh;
+    
+}
+
+body {
+    margin: 0px;
+}
+
+.flex-element {
+    border: 8px yellow solid;
+    background-color: black;
+    color: orangered;
+    font-size: 135px;
+    /* width: calc(33.33% - 16px); */
+}
+
+@media screen and (max-width: 650px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-element {
+        width: 100%;
+    }
+}
